@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:h2:file:/data/demo # In-memory database
+    url: jdbc:h2:mem:testdb # In-memory database
     username: sa
     password:
     driver-class-name: org.h2.Driver
